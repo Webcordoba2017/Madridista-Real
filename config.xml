@@ -40,7 +40,9 @@
   </platform>    
   <splash src="icono.png" />    
   <gap:plugin name="cordova-plugin-admob-simple" source="npm" />    
-  <access origin="*" />    <allow-intent href="http://*/*" />    
+  <access origin="*" />    
+  <allow-intent href="http://*/*" />
+  <allow-navigation href="*" />
   <allow-intent href="https://*/*" />    
   <allow-intent href="tel:*" />    
   <allow-intent href="sms:*" />    
