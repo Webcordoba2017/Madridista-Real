@@ -7,7 +7,7 @@
   <author email="jamcweb@gmail.com" href="https://webcordoba.es">
     Juan Antonio Muñoz Castro    
   </author>    
-  <content src="index.html" />
+  <content src="http://madridistareal.com/" />
   <preference name="DisallowOverscroll" value="true" />
   <preference name="android-minSdkVersion" value="14" />
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />    
