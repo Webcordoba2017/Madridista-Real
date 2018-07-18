@@ -57,5 +57,8 @@
     <allow-intent href="itms-apps:*" />   
     <allow-intent href="*" />
   </platform>
-
+<feature name="IntentAndNavigationFilter">
+    <param name="ios-package" value="CDVIntentAndNavigationFilter"/>
+    <param name="onload" value="true"/>
+</feature>
 </widget>
