@@ -41,7 +41,8 @@
   </platform>    
   <splash src="icono.png" />    
   <gap:plugin name="cordova-plugin-admob-simple" source="npm" />    
-  <access origin="*" />    
+  <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
+  
   <allow-intent href="http://*/*" />
   <allow-navigation href="*" />
   <allow-intent href="https://*/*" />    
