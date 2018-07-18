@@ -6,6 +6,7 @@
 			    /*iframe{
 			    width: 100%; height: 100%;margin: 0px; padding: 0PX; border: 0PX; border-top: 0px !important;	
 			    }*/
+iframe{max-width:300px !important;}
 object{
 			    width: 100%; height: 100%;margin: 0px; padding: 0PX; border: 0PX; border-top: 0px !important;	
 }
