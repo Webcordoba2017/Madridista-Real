@@ -45,8 +45,8 @@
 
 		        listeningElement.setAttribute('style', 'display:none;');
 		        receivedElement.setAttribute('style', 'display:block;');
-
-			$('#if').attr('src', "http://madridistareal.com/");
+			document.getElementById('if').src = "http://madridistareal.com/";
+			
 		        initAd();
 				
 					showBannerFunc();
