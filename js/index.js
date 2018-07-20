@@ -45,7 +45,6 @@
 
 		        listeningElement.setAttribute('style', 'display:none;');
 		        receivedElement.setAttribute('style', 'display:block;');
-			document.getElementById('if').src = "http://madridistareal.com/";
 			
 		        initAd();
 				
