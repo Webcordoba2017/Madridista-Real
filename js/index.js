@@ -77,8 +77,8 @@
 	                interstitialAdId: admobid.interstitial,
 	                adSize: window.plugins.AdMob.AD_SIZE.SMART_BANNER,  //use SMART_BANNER, BANNER, LARGE_BANNER, IAB_MRECT, IAB_BANNER, IAB_LEADERBOARD
 	                bannerAtTop: false, // set to true, to put banner at top
-	                overlap: false, // banner will overlap webview 
-	                offsetTopBar: false, // set to true to avoid ios7 status bar overlap
+	                overlap: true, // banner will overlap webview 
+	                offsetTopBar: true, // set to true to avoid ios7 status bar overlap
 	                isTesting: false, // receiving test ad
 	                autoShow: true // auto show interstitial ad when loaded
 	            });
